@@ -32,7 +32,7 @@ router.push(`/search?term=${term}`)
         <p className="link">Gmail</p>
         <p className="link">Images</p>
         <ViewGridIcon className="h-10 w-10 p-2 rounded-full hover:bg-gray-100 cursor-pointer" />
-      <Avatar url='https://coaching.papareact.com/ai9' />
+      <Avatar url='/1.png' />
       </div>
     </header>
       {/* Body */}
@@ -45,7 +45,7 @@ router.push(`/search?term=${term}`)
   </div>
 <div className="flex flex-col w-1/2 space-y-2 justify-center mt-8 sm:space-y-0 sm:flex-row sm:space-x-4">
   <button onClick={search} className="btn">Google Search</button>
-  <button onClick={search} className="btn">I'm Feeling Lucky</button>
+  <button onClick={search} className="btn">I&apos;m Feeling Lucky</button>
 </div>
 
 </form>
